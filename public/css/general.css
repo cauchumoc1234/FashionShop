@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+@font-face {
+    font-family: fontheader;
+    src: url("../font/UTM BanqueB.ttf");
+}
+.header {
+    display: flex;
+    color: #ffffff;
+    background-color: #f3ecf7;
+    padding: 8px;
+    height: 100px;
+    padding-left: 10%;
+}
+.header a{
+    display: flex;
+    height: 100%;
+    max-width: 320px;
+    color: rgb(30, 31, 30);
+    font-size: 25px;
+    font-family: fontheader, sans-serif;
+}
+.header h1{
+    margin-top: 1px;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    background-color: #000102;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+.footer a{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: rgb(164, 165, 164);
+}
+.footer a:hover{
+    color: honeydew;
+}
+.footer .general a:first-child{
+    font-size: 20px;
+    font-weight: bolder;
+    color: honeydew;
+}
+.social{
+    display: flex;
+}
+.social a{
+    flex-grow: 1;
+    font-size: 30px;
+    color: honeydew;
+}
+.search-box{
+    display: block;
+    text-align: right;
+    margin-top: 1%;
+}
+.search-box input{
+    font-size: 18px;
+    padding: 4px 8px 4px 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+}
+.search-box button{
+    font-size: 24px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    outline: none;
+    border: 1px solid gray;
+}
+.search-box button:hover{
+    background-color: rgb(212, 216, 207);
+}
