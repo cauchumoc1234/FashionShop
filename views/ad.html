@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/css/lib.css">
+    <link rel="stylesheet" href="../public/css/general.css">
+    <link rel="stylesheet" href="../public/css/user/user_login.css">
+    <title>Phoenix</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/">
+            <img src="../public/image/Logo.png" style="height: 100%;" alt="brand">
+            <h1>Phoenix</h1>
+        </a>
+        <form action="" class="col-6 search-box">
+            <input type="text" placeholder="Find something...">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+    <form action="/user/create" class="login">
+        <div>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" aria-describedby="usernameHelp" maxlength="20" minlength="6"
+            id="username">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" aria-describedby="passwordHelp" pattern=".{6,20}"
+            id="password">
+            <br>
+            <small id="passwordlHelp" class="form-text text-muted">Username & Password must have 6-20 character</small>
+            <br>
+            <label for="password">Confirm Password</label>
+            <br>
+            <input type="password" aria-describedby="cfpasswordHelp" maxlength="20" minlength="6"
+            id="cfpassword">
+            <br>
+            <small id = "cfpasswordHelp">2 passwords must be the same</small>
+            <br>
+            <label for="fullname">Fullname</label>
+            <br>
+            <input type="text" maxlength="20" minlength="6"
+            id="fullname">
+            <br>
+            <label for="password">Address</label>
+            <br>
+            <input type="text"
+            id="address">
+            <br>
+            <label for="phonenumber">Phonenumbers</label>
+            <br>
+            <input type="text"  maxlength="15" minlength="9"
+            id="phonenumber">
+            <br>
+            <button id="create">Create user</button>
+            <br>
+            <a href="/user/login">Login</a>
+        </div>
+    </form>
+    <div class="footer">
+        <div class="col-3 general">
+            <a href="#">FIND A STORE</a>
+        </div>
+        <div class="col-3 general">
+            <a href="#">GET HELP</a>
+            <a href="#">Order Status</a>
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">Payment Options</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col-3 general">
+            <a href="#">ABOUT US</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">Investors</a>
+        </div>
+        <div class="col-3 social">
+            <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    var x = document.getElementById('password')
+    var y = document.getElementById('cfpassword')
+    x.addEventListener('input',checkPass)
+    y.addEventListener('input',checkPass)
+    function checkPass(){
+        if(x.value == y.value){
+            document.getElementById('cfpasswordHelp').innerHTML = "2 passwords are matched"
+            document.getElementById('cfpasswordHelp').style = "color:green;"
+        } else document.getElementById('cfpasswordHelp').innerHTML = "2 passwords must be the same"
+    }
+</script>
+</html>

@@ -1,0 +1,20 @@
+extends ../general.pug
+block css
+    link(rel="stylesheet", href="/css/user/user_login.css")
+block content
+    form.login(action='/user/login' method="post" class ="login")
+        div
+            label(for='username') Username
+            br
+            input#username(type='text', aria-describedby='usernameHelp', maxlength='20', minlength='6')
+            br
+            label(for='password') Password
+            br
+            input#password(type='password', aria-describedby='passwordHelp', maxlength='20', minlength='6')
+            br
+            small#passwordlHelp.form-text.text-muted Username &amp; Password must have 6-20 character
+            br
+            button Login
+            br
+            a(href='/user/create') Create new user
+
