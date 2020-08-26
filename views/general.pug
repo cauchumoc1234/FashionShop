@@ -11,10 +11,14 @@ head
   a(href='/')
     img(src='/image/Logo_2.png', style='height: 100%;', alt='brand')
     h1 Agent
-  form.col-6.search-box(action='')
+  form.col-6.col-sm-12.search-box(action='')
     input(type='text', placeholder='Find something...')
     button
       i.fa.fa-search(aria-hidden='true')
+  .col-3.col-sm-12.customer
+    a(href="/user/login") Login
+    span &nbsp &nbsp
+    a(href="/user/create") Sign up
 block content
 .footer
   .col-3.general
