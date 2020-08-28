@@ -1,0 +1,24 @@
+.checklist {
+    width: 200px;
+}
+
+.checklist input {
+    width: 10%;
+    margin: 0;
+}
+
+.checklist div {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amount div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount div input {
+    width: 150px;
+}
