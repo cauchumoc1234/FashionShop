@@ -14,72 +14,72 @@ block content
             br
             input(type="text" name="avtlink")
             br
-            label(for="name") Price
+            label(for="sale") Price
             br
-            input(type="number" name="price")
+            input(type="text" id="sale" name="price")
             br
             label(for="") Amount
             .amount
                 div
                     label(for="") 35.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=23 min = 0)
                 div
                     label(for="") 36
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=11 min = 0)
                 div
                     label(for="") 36.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=12 min = 0)
                 div
                     label(for="") 37
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=14 min = 0)
                 div
                     label(for="") 37.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=43 min = 0)
                 div
                     label(for="") 38
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=23 min = 0)
                 div
                     label(for="") 38.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=25 min = 0)
                 div
                     label(for="") 39
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=35 min = 0)
                 div
                     label(for="") 39.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=33 min = 0)
                 div
                     label(for="") 40
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=54 min = 0)
                 div
                     label(for="") 40.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=55 min = 0)
                 div
                     label(for="") 41.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=56 min = 0)
                 div
                     label(for="") 41.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=58 min = 0)
                 div
                     label(for="") 42
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=59 min = 0)
                 div
                     label(for="") 42.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=60 min = 0)
                 div
                     label(for="") 43
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=61 min = 0)
                 div
                     label(for="") 43.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=34 min = 0)
                 div
                     label(for="") 44
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=23 min = 0)
                 div
                     label(for="") 44.5
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=24 min = 0)
                 div
                     label(for="") 45
-                    input(type="number" name = 'size' value=0 min = 0)
+                    input(type="number" name = 'size' value=25 min = 0)
             br
             label(for="name") Type
             br
@@ -128,16 +128,7 @@ block content
                     input( type="checkbox" value="golf" name="type")  
                 div
                     label Yoga
-                    input( type="checkbox" value="yoga" name="type")
-                div
-                    label Nike
-                    input( type="checkbox" value="nike" name="type")
-                div
-                    label Adidas
-                    input( type="checkbox" value="adidas" name="type")
-                div
-                    label Vietnam
-                    input( type="checkbox" value="vietnam" name="type")                 
+                    input( type="checkbox" value="yoga" name="type")              
             label(for="name") Brand                         
             br
             input( list = "brand" name="brand")
@@ -147,3 +138,5 @@ block content
                 option(value="Vietnam")
             br
             button Add
+block script
+    script(src="script/price_format.js")
