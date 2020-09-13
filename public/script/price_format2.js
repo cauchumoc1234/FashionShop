@@ -1,3 +1,5 @@
-var price = document.getElementById("price").textContent
-console.log(typeof Intl.NumberFormat().format(price));
-document.getElementById('price').innerHTML = Intl.NumberFormat().format(price)
+var allPrice = document.getElementsByClassName('price');
+for(var i = 0 ; i < allPrice.length ; i++){
+    console.log(allPrice[i].textContent);
+    allPrice[i].textContent = Intl.NumberFormat().format(allPrice[i].textContent) + " VND"
+}

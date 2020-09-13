@@ -3,11 +3,30 @@
     background-color: red;
     overflow: auto;
 }
+.list{
+    overflow: auto; 
+    /* không biết sao mà xoá đi thì cái div này sẽ k có height,k sửa đc tag con luôn */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
 .item{
     display: block;
-    min-height: 300px;
+    max-width: 20%;
+    min-width: 100px;
 }
 .products a img{
     display: block;
     width: 100%;
+}
+.body{
+    width: 100%;
+}
+.container_2{
+    margin-left: auto;
+    float: right;
+}
+.type{
+    text-transform: capitalize;
 }

@@ -37,15 +37,15 @@ app.use('/admin', admin_router)
 app.get('/',async function(req, res) {
     
     var shoe = await Product.find().sort('updated:desc').limit(10).exec()
-    var clothing = await Clothing.find().limit(10).exec()
-    var product = shoe.concat(clothing);
+    var clothes = await Clothing.find().limit(10).exec()
+    var product = shoe.concat(clothes);
     var x = product.sort((a,b)=>{
         if(a.updated > b.updated){
             return -1;
         }
         else return 1;
     })
-    res.render('home',{shoes:shoe,clothing:clothing,product:product})
+    res.render('home',{shoes:shoe,clothes:clothes,product:x})
     // res.send(x)
     
 });

@@ -61,55 +61,35 @@ block content
               a(href='/product/category?q=adidas&type=brand') Adidas
             li
               a(href='/product/category?q=vietnam&type=brand') Vietnam
-    .col-9.col-s-12
-    if shoes
-      .list
-        h1 New Shoes
-        -  for(x = 0 ; x <4 ; x++)
-            a.item(href="/product/shoe/"+shoes[x].id)
-              .image
-              img(src=shoes[x].avatar, alt='Product', style='width: 100%;')
-              .info
-                h4 #{shoes[x].productname}
-                if shoes[x].type[1]
-                  p.type  #{shoes[x].type[1]}
-                else
-                  p.type #{shoes[x].type[0]}
-                span.price #{shoes[x].price}
-
-      .list
-        h1 Trending
-        a.item(href='#')
-          .image
-          img(src='image/product_1.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
-        a.item(href='#')
-          .image
-          img(src='image/product_1.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
-        a.item(href='#')
-          .image
-          img(src='image/product_1.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
-        a.item(href='#')
-          .image
-          img(src='image/product_1.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
+    .col-9.col-s-12.container
+      if shoes
+        h1(style="text-align:center;") New Shoes
+        .list
+          -  for(x = 0 ; x <4 ; x++)
+              a.item(href="/product/shoe/"+shoes[x].id)
+                .image
+                img(src=shoes[x].avatar, alt='Product', style='width: 100%;')
+                .info
+                  h4 #{shoes[x].productname}
+                  if shoes[x].type[1]
+                    p.type  #{shoes[x].type[1]}
+                  else
+                    p.type #{shoes[x].type[0]}
+                  span.price #{shoes[x].price}
+    .col-9.col-s-12.container_2
+      if clothes
+        h1(style="text-align:center;") New Clothes
+        .list
+          -  for(x = 0 ; x <4 ; x++)
+              a.item(href="/product/clothing/"+clothes[x].id)
+                .image
+                img(src=clothes[x].avatar, alt='Product', style='width: 100%;')
+                .info
+                  h4 #{clothes[x].productname}
+                  if clothes[x].type[1]
+                    p.type  #{clothes[x].type[1]}
+                  else
+                    p.type #{clothes[x].type[0]}
+                  span.price #{clothes[x].price}
 block script
   script(src="/script/price_format2.js")
