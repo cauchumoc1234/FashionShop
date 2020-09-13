@@ -1,4 +1,6 @@
 extends general.pug
+block css
+  link(rel="stylesheet", href="/css/home.css")
 block content
   .row.body
     .col-3.col-s-3.menu
@@ -24,7 +26,11 @@ block content
             li
               a(href='/product/category?q=hoodie&type=clothing') Hoodies
             li
-              a(href='/product/category?q=short&type=clothing') Shorts
+              a(href='/product/category?q=jacket&type=clothing') Jacket
+            li
+              a(href='/product/category?q=shorts&type=clothing') Shorts
+            li
+              a(href='/product/category?q=trousers&type=clothing') Trousers
             li
               a(href='/product/category?q=cap&type=clothing') Caps
             li
@@ -56,32 +62,21 @@ block content
             li
               a(href='/product/category?q=vietnam&type=brand') Vietnam
     .col-9.col-s-12
+    if shoes
       .list
-        h1 New Arrivals
-        a.item(href='#')
-          .image
-          img(src='https://i.imgur.com/HpjswQh.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
-        a.item(href='#')
-          .image
-          img(src='image/product_1.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
-        a.item(href='#')
-          .image
-          img(src='image/product_1.jpg', alt='Product', style='width: 100%;')
-          .info
-            h4 Nike Air Force 1 &apos;07
-            p.type Women&apos;s Shoes
-            span.price
-              | 3.123.123 &dstrok;
+        h1 New Shoes
+        -  for(x = 0 ; x <4 ; x++)
+            a.item(href="/product/shoe/"+shoes[x].id)
+              .image
+              img(src=shoes[x].avatar, alt='Product', style='width: 100%;')
+              .info
+                h4 #{shoes[x].productname}
+                if shoes[x].type[1]
+                  p.type  #{shoes[x].type[1]}
+                else
+                  p.type #{shoes[x].type[0]}
+                span.price #{shoes[x].price}
+
       .list
         h1 Trending
         a.item(href='#')
@@ -116,3 +111,5 @@ block content
             p.type Women&apos;s Shoes
             span.price
               | 3.123.123 &dstrok;
+block script
+  script(src="/script/price_format2.js")

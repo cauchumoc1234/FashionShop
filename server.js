@@ -12,9 +12,10 @@ var cookieParser = require('cookie-parser');
 app.use(cookieParser(process.env.APP_SECRET)); //Link to static file
 
 app.use(express["static"]("public"));
-
+var product_controller = require("./controllers/product.controller")
 var bodyParser = require('body-parser');
-
+var Product = require('./models/product.model')
+var Clothing = require('./models/clothes.model')
 app.use(bodyParser.json()); // for parsing application/json
 
 app.use(bodyParser.urlencoded({
@@ -33,7 +34,19 @@ app.set('view engine', 'pug');
 app.set('views', './views');
 app.use('/product', product_router);
 app.use('/admin', admin_router)
-app.get('/', function(req, res) {
-    res.render('home');
+app.get('/',async function(req, res) {
+    
+    var shoe = await Product.find().sort('updated:desc').limit(10).exec()
+    var clothing = await Clothing.find().limit(10).exec()
+    var product = shoe.concat(clothing);
+    var x = product.sort((a,b)=>{
+        if(a.updated > b.updated){
+            return -1;
+        }
+        else return 1;
+    })
+    res.render('home',{shoes:shoe,clothing:clothing,product:product})
+    // res.send(x)
+    
 });
 app.use('/user', user_router);

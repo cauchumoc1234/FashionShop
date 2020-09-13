@@ -4,7 +4,7 @@ block css
     link(rel="stylesheet", href="/css/admin/admin.css") 
 block content
     h1 Admin
-    form.login(action="admin/add_product", method="post")
+    form.login(action="admin/add_product/shoes", method="post" id = "add_product")
         div
             label(for="name") Product name
             br
@@ -18,8 +18,77 @@ block content
             br
             input(type="text" id="sale" name="price")
             br
-            label(for="") Amount
-            .amount
+            label(for="name") Brand                         
+            br
+            input( list = "brand" name="brand" value="Adidas")
+            datalist#brand
+                option(value="Nike")
+                option(value="Adidas")
+                option(value="Biti's")
+            br
+            label(for="name") Type
+            br
+            .checklist
+                div
+                    label Shoes
+                    input( type="radio" value="shoes" id="first_type" name="type" class="main-type" checked)
+                div
+                    label Clothing
+                    input( type="radio" value="clothes" name="type" class="main-type")
+                #clothing-type(style="display:none;")
+                    div
+                        label Top
+                        input( type="checkbox" value="top" name="type")
+                    div
+                        label T-Shirt
+                        input( type="checkbox" value="t-shirt" name="type")
+                    div
+                        label Hoodies
+                        input( type="checkbox" value="hoodies" name="type")  
+                    div
+                        label Jacket
+                        input( type="checkbox" value="jacket" name="type")     
+                    div
+                        label Shorts
+                        input( type="checkbox" value="shorts" name="type") 
+                    div
+                        label Trouser
+                        input( type="checkbox" value="trouser" name="type")  
+                    div
+                        label Caps
+                        input( type="checkbox" value="caps" name="type")
+                    div
+                        label Socks
+                        input( type="checkbox" value="socks" name="type")
+                    div
+                        label Bags
+                        input( type="checkbox" value="bags" name="type") 
+                div
+                    label Tennis
+                    input( type="checkbox" value="tennis" name="type")
+                div
+                    label Street
+                    input( type="checkbox" value="street" name="type")  
+                div
+                    label Football
+                    input( type="checkbox" value="football" name="type")
+                div
+                    label Running
+                    input( type="checkbox" value="running" name="type" )
+                div
+                    label Basketball
+                    input( type="checkbox" value="basketball" name="type")
+                div
+                    label Gym and Traning
+                    input( type="checkbox" value="gym" name="type")
+                div
+                    label Golf
+                    input( type="checkbox" value="golf" name="type" checked)  
+                div
+                    label Yoga
+                    input( type="checkbox" value="yoga" name="type")              
+            .amount#shoes(style="display:none;")
+                label(for="") Amount
                 div
                     label(for="") 35.5
                     input(type="number" name = 'size' value=23 min = 0)
@@ -81,62 +150,22 @@ block content
                     label(for="") 45
                     input(type="number" name = 'size' value=25 min = 0)
             br
-            label(for="name") Type
-            br
-            .checklist
+            .amount#clothing(style="display:none;")
+                label(for="") Amount
                 div
-                    label Shoes
-                    input( type="checkbox" value="shoes" name="type")
+                    label(for="") S
+                    input(type="number" name = 'size' value=23 min = 0)
                 div
-                    label Clothes
-                    input( type="checkbox" value="clothes" name="type")
+                    label(for="") M
+                    input(type="number" name = 'size' value=11 min = 0)
                 div
-                    label Top
-                    input( type="checkbox" value="top" name="type")
+                    label(for="") L
+                    input(type="number" name = 'size' value=12 min = 0)
                 div
-                    label Hoodies
-                    input( type="checkbox" value="hoodies" name="type")     
-                div
-                    label Shorts
-                    input( type="checkbox" value="shorts" name="type")  
-                div
-                    label Caps
-                    input( type="checkbox" value="caps" name="type")
-                div
-                    label Socks
-                    input( type="checkbox" value="socks" name="type")
-                div
-                    label Bags
-                    input( type="checkbox" value="bags" name="type") 
-                div
-                    label Tennis
-                    input( type="checkbox" value="tennis" name="type")
-                div
-                    label Football
-                    input( type="checkbox" value="football" name="type")
-                div
-                    label Running
-                    input( type="checkbox" value="running" name="type")
-                div
-                    label Basketball
-                    input( type="checkbox" value="basketball" name="type")
-                div
-                    label Gym and Traning
-                    input( type="checkbox" value="gym" name="type")
-                div
-                    label Golf
-                    input( type="checkbox" value="golf" name="type")  
-                div
-                    label Yoga
-                    input( type="checkbox" value="yoga" name="type")              
-            label(for="name") Brand                         
-            br
-            input( list = "brand" name="brand")
-            datalist#brand
-                option(value="Nike")
-                option(value="Adidas")
-                option(value="Vietnam")
+                    label(for="") XL
+                    input(type="number" name = 'size' value=14 min = 0)
             br
             button Add
 block script
     script(src="script/price_format.js")
+    script(src="script/main_type_choose.js")

@@ -14,3 +14,4 @@ var clothSchema = new mongoose.Schema({
     type: [],
     brand: String
 })
+module.exports = mongoose.model("Cloth",clothSchema,"clothes")

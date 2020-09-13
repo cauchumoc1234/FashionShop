@@ -1,0 +1,13 @@
+.products{
+    min-height: 100px;
+    background-color: red;
+    overflow: auto;
+}
+.item{
+    display: block;
+    min-height: 300px;
+}
+.products a img{
+    display: block;
+    width: 100%;
+}

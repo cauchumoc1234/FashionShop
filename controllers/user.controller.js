@@ -1,6 +1,8 @@
 var User = require('../models/user.model')
+
 module.exports.show = function(req, res) {
-    res.render('user/user_login')
+    // res.render('user/user_login')
+    res.send("user")
 }
 module.exports.create = function(req, res) {
     res.render('user/user_create')

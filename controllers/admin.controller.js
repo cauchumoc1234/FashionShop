@@ -1,8 +1,9 @@
 var Product = require('../models/product.model');
+var Clothing = require("../models/clothes.model")
 module.exports.show = function(req, res) {
     res.render('admin/admin')
 }
-module.exports.addProduct = function(req, res) {
+module.exports.addShoe = function(req, res) {
     req.body.price = parseInt(req.body.price)
     Product.create({
 
@@ -36,4 +37,24 @@ module.exports.addProduct = function(req, res) {
         brand: req.body.brand
     })
     res.redirect('/admin')
+}
+module.exports.addCloth = function(req,res){
+    req.body.price = parseInt(req.body.price)
+    Clothing.create({
+        productname: req.body.name,
+        updated: Date.now(),
+        avatar: req.body.avtlink,
+        price: req.body.price,
+        inStock: {
+            "S": req.body.size[0],
+            "M": req.body.size[1],
+            "L": req.body.size[2],
+            "XL": req.body.size[3],
+            "2XL": req.body.size[4]
+        },
+        type: req.body.type,
+        brand: req.body.brand
+    })
+    res.redirect('/admin')
+
 }
