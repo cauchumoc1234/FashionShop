@@ -1,2 +1,22 @@
 extends general.pug
+block css
+    link(rel="stylesheet", href="/css/product.css")
 block content
+    if product
+        .page
+            img(src= product.avatar, alt="Product")
+            .info
+                h1 #{product.productname}
+                h3.price #{product.price}
+                form(action="/add/"+product._id method="post")
+                    .size
+                        each val,key in product.inStock
+                            label.size-btn
+                                input.choice(type="radio", name= "size",value= key)
+                                span= key
+                            p(value = val)= "There were " + val + " products in stock" 
+                    input#amount(type="number", name="amount" min="1")
+
+block script
+    script(src="/script/price_format2.js")
+    script(src="/script/product/choose_size.js")

@@ -1,0 +1,49 @@
+.page{
+    width: 100%;
+    display: flex;
+    margin: 30px
+}
+.page img{
+    width: 30%;
+    max-height: 500px;
+    object-fit: scale-down;
+}
+.page .info{
+    margin-left: 20px;
+}
+label{
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-color:red;
+    margin-bottom: 10px;
+
+}
+input[type="radio"]{
+    /* display: none; */
+    transform: scale(2);
+        
+}
+.size{
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.size label{
+
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-btn:hover{
+    background-color: beige;
+    transition: background-color 0.2s;
+}
+#amount{
+    display: block;
+    margin-left: 10px;
+}
