@@ -14,8 +14,8 @@ block content
                             label.size-btn
                                 input.choice(type="radio", name= "size",value= key)
                                 span= key
-                            p(value = val)= "There were " + val + " products in stock" 
-                    input#amount(type="number", name="amount" min="1")
+                                span(class="instock",style="display:none;" , value= val)
+                    input#amount(type="number", name="amount" min="1" value=1)
 
 block script
     script(src="/script/price_format2.js")
