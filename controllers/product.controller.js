@@ -16,6 +16,6 @@ module.exports.showClothing = function(req,res){
         res.render('product',{product:docs.toJSON()})
     })
 }
-module.exports.addToCart = function(req,res){
-    
+module.exports.buyNow = function(req,res){
+    res.send(req.body)
 }
