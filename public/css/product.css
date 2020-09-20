@@ -13,21 +13,17 @@
 }
 label{
     display: block;
-    width: 80px;
-    height: 40px;
     background-color:rgb(236, 230, 230);
     margin-bottom: 10px;
     border: 1px solid rgb(185, 179, 179);
     color: rgb(90, 126, 111);
-}
-input[type="radio"]{
-    /* display: none;         */
 }
 .size{
     min-height: 100px;
     display: flex;
     flex-wrap: wrap;
     width: 660px;
+    height: 100px;
 }
 .size label{
 
@@ -36,20 +32,21 @@ input[type="radio"]{
     height: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     overflow: hidden;
+    border-radius: 6px;
 }
 .size label > span{
     padding: 0 10px 0 0;
 }
-.size-btn{
-    border-radius: 5px;
-    transition: background-color 0.5s;
-    
+
+.size-btn input{
+    display: block;
 }
 .size-btn:hover{
     background-color: rgb(141, 141, 137);
     color: aliceblue;
+    transition: background-color 0.5s;
 }
 .size-btn:checked{
     color: aliceblue;
@@ -57,4 +54,30 @@ input[type="radio"]{
 #amount{
     display: block;
     margin-left: 10px;
+    width: 60px;
+    height: 30px;
+}
+.submit-btn button{
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    border: 1px solid rgb(179, 175, 175);
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+}
+#atc-btn{
+    background-color: rgb(190, 51, 0);
+    color: aliceblue;
+}
+#atc-btn:hover{
+    background-color: rgb(245, 103, 51);
+}
+#buy-now{
+    background-color: rgb(37, 160, 119);
+    color: aliceblue;
+}
+#buy-now:hover{
+    background-color: rgb(68, 211, 163);
 }

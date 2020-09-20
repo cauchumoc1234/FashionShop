@@ -3,7 +3,7 @@ block css
     link(rel="stylesheet", href="/css/user/user_login.css") 
     link(rel="stylesheet", href="/css/admin/admin.css") 
 block content
-    h1 Admin
+    h1(style="text-align:center;") Admin
     form.login(action="admin/add_product/shoes", method="post" id = "add_product")
         div
             label(for="name") Product name
@@ -31,7 +31,7 @@ block content
             .checklist
                 div
                     label Shoes
-                    input( type="radio" value="shoes" id="first_type" name="type" class="main-type" checked)
+                    input( type="radio" value="shoes" id="first_type" name="type" class="main-type")
                 div
                     label Clothing
                     input( type="radio" value="clothes" name="type" class="main-type")
@@ -83,7 +83,7 @@ block content
                     input( type="checkbox" value="gym" name="type")
                 div
                     label Golf
-                    input( type="checkbox" value="golf" name="type" checked)  
+                    input( type="checkbox" value="golf" name="type")  
                 div
                     label Yoga
                     input( type="checkbox" value="yoga" name="type")              
@@ -167,5 +167,5 @@ block content
             br
             button Add
 block script
-    script(src="script/price_format.js")
-    script(src="script/main_type_choose.js")
+    script(src="script/admin/price_format.js")
+    script(src="script/admin/main_type_choose.js")

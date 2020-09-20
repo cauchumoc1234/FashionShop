@@ -15,8 +15,11 @@ block content
                                 input.choice(type="radio", name= "size",value= key)
                                 span= key
                                 span(class="instock",style="display:none;" , value= val)
-                    input#amount(type="number", name="amount" min="1" value=1)
+                    input#amount(type="number", name="amount" min=1 max=1 step="1" value=1)
+                    .submit-btn
+                        button(type="button")#atc-btn Add to cart
+                        button#buy-now Buy Now
 
 block script
-    script(src="/script/price_format2.js")
+    script(src="/script/product/price_format2.js")
     script(src="/script/product/choose_size.js")
