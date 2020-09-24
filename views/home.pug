@@ -3,7 +3,7 @@ block css
   link(rel="stylesheet", href="/css/home.css")
 block content
   .row.body
-    .col-3.col-s-3.menu
+    .col-2.col-s-3.menu
       ul
         li.drop-down(style='width: 100%;')
           a(href='/product/category?q=all&type=shoes') Shoes
@@ -61,13 +61,12 @@ block content
               a(href='/product/category?q=adidas&type=brand') Adidas
             li
               a(href='/product/category?q=vietnam&type=brand') Vietnam
-    .col-9.col-s-12.container
+    .col-10.col-s-12.container
       if shoes
         h1(style="text-align:center;") New Shoes
         .list
           -  for(x = 0 ; x <4 ; x++)
-              a.item(href="/product/shoe/"+shoes[x].id)
-                .image
+              a.item(href="/product/shoes/"+shoes[x].id)
                 img(src=shoes[x].avatar, alt='Product', style='width: 100%;')
                 .info
                   h4 #{shoes[x].productname}
@@ -76,13 +75,12 @@ block content
                   else
                     p.type #{shoes[x].type[0]}
                   span.price #{shoes[x].price}
-    .col-9.col-s-12.container_2
+    .col-10.col-s-12.container_2
       if clothes
         h1(style="text-align:center;") New Clothes
         .list
           -  for(x = 0 ; x <4 ; x++)
               a.item(href="/product/clothing/"+clothes[x].id)
-                .image
                 img(src=clothes[x].avatar, alt='Product', style='width: 100%;')
                 .info
                   h4 #{clothes[x].productname}

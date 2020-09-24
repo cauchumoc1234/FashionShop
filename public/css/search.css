@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.page-number{
+    background-color: rgb(245, 245, 245);
+    min-width: 60px;
+    transition: background-color 0.3s;
+}
+.page-number:hover{
+    background-color: rgb(135, 191, 240);
+}
+.link{
+    color: rgb(26, 59, 59);
+}
+.current{
+    background-color: rgb(129, 241, 241);
+}

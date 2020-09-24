@@ -27,13 +27,15 @@ var db = require('./db');
 var product_router = require('./routes/product.router');
 
 var user_router = require('./routes/user.router');
-var admin_router = require('./routes/admin.router')
+var admin_router = require('./routes/admin.router');
+var search_router = require('./routes/search.router')
 app.listen(port); //Set pug view engine
 
 app.set('view engine', 'pug');
 app.set('views', './views');
 app.use('/product', product_router);
 app.use('/admin', admin_router)
+app.use('/search',search_router)
 app.get('/',async function(req, res) {
     
     var shoe = await Product.find().sort('updated:desc').limit(10).exec()
@@ -46,7 +48,6 @@ app.get('/',async function(req, res) {
         else return 1;
     })
     res.render('home',{shoes:shoe,clothes:clothes,product:x})
-    // res.send(x)
     
 });
 app.use('/user', user_router);

@@ -121,4 +121,8 @@ html {
     margin-top: 20px;
     word-break:break-all;
     max-height: 100%;
+    transition: color 0.4s;
+}
+.customer a:hover{
+    color: grey;
 }

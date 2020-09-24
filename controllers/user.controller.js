@@ -23,6 +23,9 @@ module.exports.postCreate = function(req, res) {
 module.exports.login = function(req, res) {
     res.render('user/user_login')
 }
+module.exports.logout = function(req, res) {
+    document.cookie = "_id=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
+}
 module.exports.postLogin = function(req, res) {
     User.find({ 'username': req.body.username, 'password': req.body.password }, 'username password', function(err, users) {
         if (err) return handleError(err);
@@ -30,8 +33,11 @@ module.exports.postLogin = function(req, res) {
         res.redirect('/')
     })
 }
-module.exports.showProfile = function(req, res) {
-    res.send('profile')
+module.exports.showProfile = async function(req, res) {
+    var id = req.signedCookies
+    var user = await User.find({"_id": req.signedCookies['id']},'username fullname').exec();
+    res.send(user)
+    res.render('user/profile')
 }
 module.exports.logout = function(req, res) {
     res.clearCookie('id');

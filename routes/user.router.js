@@ -7,4 +7,6 @@ user_router.get('/create',user_controller.create)
 user_router.post('/create',user_controller.postCreate)
 user_router.get('/login',user_controller.login)
 user_router.post('/login',user_controller.postLogin)
+user_router.get('/logout',user_controller.logout)
+user_router.get('/profile',user_controller.showProfile)
 module.exports = user_router;
