@@ -18,13 +18,14 @@ block content
             br
             input(type="text" id="sale" name="price")
             br
-            label(for="name") Brand                         
+            label(for="brand") Brand                         
             br
-            input( list = "brand" name="brand" value="Adidas")
-            datalist#brand
-                option(value="Nike")
-                option(value="Adidas")
-                option(value="Biti's")
+            select(name="brand" id="brand" size="5" multiple)
+                option(value="Nike") Nike
+                option(value="Adidas") Adidas
+                option(value="Bitis Biti's") Biti's
+                option(value="Vietnam") Vietnam
+            small Press Ctrl to choose multiple brands
             br
             label(for="name") Type
             br

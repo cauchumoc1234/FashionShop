@@ -1,0 +1,2634 @@
+[{
+  "_id": {
+    "$oid": "5f4a235640d41f34ec6ba295"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "Nike Tiempo Legend 8 Academy MG",
+  "updated": {
+    "$date": "2020-08-29T09:43:50.721Z"
+  },
+  "avatar": "https://i.imgur.com/xUaO9qc.jpg",
+  "price": 2039000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a237d40d41f34ec6ba296"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "Nike Mercurial Vapor 13 Academy MDS MG",
+  "updated": {
+    "$date": "2020-08-29T09:44:29.248Z"
+  },
+  "avatar": "https://i.imgur.com/I1KhWIC.jpg",
+  "price": 1408000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a23b440d41f34ec6ba297"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "Nike Mercurial Superfly 7 Elite FG",
+  "updated": {
+    "$date": "2020-08-29T09:45:24.910Z"
+  },
+  "avatar": "https://i.imgur.com/wUj24UX.jpg",
+  "price": 7319000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a23e040d41f34ec6ba298"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "Nike Phantom GT Elite Dynamic Fit FG",
+  "updated": {
+    "$date": "2020-08-29T09:46:08.343Z"
+  },
+  "avatar": "https://i.imgur.com/Xfo78s4.jpg",
+  "price": 7629000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a66c331bdfb2b5c09d913"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike React Infinity Run Flyknit",
+  "updated": {
+    "$date": "2020-08-29T14:31:31.731Z"
+  },
+  "avatar": "https://i.imgur.com/tAyKCf1.jpg",
+  "price": 4699000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a670731bdfb2b5c09d914"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike Air Zoom Vomero 14",
+  "updated": {
+    "$date": "2020-08-29T14:32:39.088Z"
+  },
+  "avatar": "https://i.imgur.com/xePGnp4.jpg",
+  "price": 4109000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a673231bdfb2b5c09d915"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike Joyride Run Flyknit 'Fast City'",
+  "updated": {
+    "$date": "2020-08-29T14:33:22.192Z"
+  },
+  "avatar": "https://i.imgur.com/ZAUR3IH.jpg",
+  "price": 5589000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a675731bdfb2b5c09d916"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike React Phantom Run Flyknit 2",
+  "updated": {
+    "$date": "2020-08-29T14:33:59.776Z"
+  },
+  "avatar": "https://i.imgur.com/rPD9Hqp.jpg",
+  "price": 4109000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a679331bdfb2b5c09d917"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike Zoom Gravity 2",
+  "updated": {
+    "$date": "2020-08-29T14:34:59.773Z"
+  },
+  "avatar": "https://i.imgur.com/G5xj2oN.jpg",
+  "price": 2649000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a67b031bdfb2b5c09d918"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike React Infinity Run Flyknit \"Fast City\"",
+  "updated": {
+    "$date": "2020-08-29T14:35:28.743Z"
+  },
+  "avatar": "https://i.imgur.com/RFORuiK.jpg",
+  "price": 4500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a67e431bdfb2b5c09d919"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike Air Zoom Pegasus 'Fast City'",
+  "updated": {
+    "$date": "2020-08-29T14:36:20.366Z"
+  },
+  "avatar": "https://i.imgur.com/J04Pllo.jpg",
+  "price": 3700000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a680031bdfb2b5c09d91a"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Nike Flex Experience RN 8",
+  "updated": {
+    "$date": "2020-08-29T14:36:48.278Z"
+  },
+  "avatar": "https://i.imgur.com/DC9j6Pv.jpg",
+  "price": 1300000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Nike",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa11cbf2f0a4e88cede92"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Hunter X BKL - Midnight Black Inverted",
+  "updated": {
+    "$date": "2020-09-02T13:41:48.498Z"
+  },
+  "avatar": "https://i.imgur.com/IQDcyit.jpg",
+  "price": 750000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa14bbf2f0a4e88cede93"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Biti’s Hunter X - Summer 2K19 ADVENTURE COLLECTION",
+  "updated": {
+    "$date": "2020-09-02T13:42:35.979Z"
+  },
+  "avatar": "https://i.imgur.com/rSIM5jd.jpg",
+  "price": 829000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa16dbf2f0a4e88cede94"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Biti’s Hunter X - Summer 2K19 ADVENTURE COLLECTION - Zaffre Blue",
+  "updated": {
+    "$date": "2020-09-02T13:43:09.179Z"
+  },
+  "avatar": "https://i.imgur.com/eLpOuh5.jpg",
+  "price": 850000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa19ebf2f0a4e88cede95"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Biti's Hunter Street Americano Đen",
+  "updated": {
+    "$date": "2020-09-02T13:43:58.994Z"
+  },
+  "avatar": "https://i.imgur.com/L2jN3PB.jpg",
+  "price": 729000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa1cebf2f0a4e88cede96"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Biti's Hunter Layered Upper",
+  "updated": {
+    "$date": "2020-09-02T13:44:46.834Z"
+  },
+  "avatar": "https://i.imgur.com/y4SryFP.jpg",
+  "price": 859000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa1eebf2f0a4e88cede97"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Biti's Hunter màu Xám đậm",
+  "updated": {
+    "$date": "2020-09-02T13:45:18.970Z"
+  },
+  "avatar": "https://i.imgur.com/ixjCX1l.jpg",
+  "price": 600000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa210bf2f0a4e88cede98"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "Biti's Hunter X 2k19 - Jet Navy",
+  "updated": {
+    "$date": "2020-09-02T13:45:52.425Z"
+  },
+  "avatar": "https://i.imgur.com/smntqn5.jpg",
+  "price": 859000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": ["Biti's bitis","vietnam"],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa457627fbc5a186ea23c"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "PREDATOR MUTATOR 20.1 L FG",
+  "updated": {
+    "$date": "2020-09-02T13:55:35.691Z"
+  },
+  "avatar": "https://i.imgur.com/CRg68LP.jpg",
+  "price": 4500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa4c2627fbc5a186ea23d"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "PREDATOR MUTATOR 20.4 TURF",
+  "updated": {
+    "$date": "2020-09-02T13:57:22.646Z"
+  },
+  "avatar": "https://i.imgur.com/SxupXNO.jpg",
+  "price": 1300000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa582627fbc5a186ea23e"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST CORE BLACK / ORBIT GREY / GREY SIX",
+  "updated": {
+    "$date": "2020-09-02T14:00:34.675Z"
+  },
+  "avatar": "https://i.imgur.com/F44e9mQ.jpg",
+  "price": 4500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa5a9627fbc5a186ea23f"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 CLOUD WHITE / CORE BLACK / SIGNAL PINK",
+  "updated": {
+    "$date": "2020-09-02T14:01:13.480Z"
+  },
+  "avatar": "https://i.imgur.com/wgs9nHY.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa5d9627fbc5a186ea240"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 SIGNAL PINK /CORE BLACK /SIGNAL PINK",
+  "updated": {
+    "$date": "2020-09-02T14:02:01.471Z"
+  },
+  "avatar": "https://i.imgur.com/GRauo0C.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa60e627fbc5a186ea241"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST SUMMER.RDY CLOUD WHITE / CORE BLACK / SIGNAL PINK",
+  "updated": {
+    "$date": "2020-09-02T14:02:54.109Z"
+  },
+  "avatar": "https://i.imgur.com/5YeEWvc.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa69c627fbc5a186ea242"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "4D RUN 1.0 CLOUD WHITE / CORE BLACK / GOLD METALLIC",
+  "updated": {
+    "$date": "2020-09-02T14:05:16.421Z"
+  },
+  "avatar": "https://i.imgur.com/vXPUqBB.jpg",
+  "price": 5500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa6dd627fbc5a186ea243"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 CORE BLACK / NIGHT METALLIC / CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:06:21.787Z"
+  },
+  "avatar": "https://i.imgur.com/UCTwQVg.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa6fa627fbc5a186ea244"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ALPHAEDGE 4D CORE BLACK / GLOW BLUE / COLLEGIATE PURPLE",
+  "updated": {
+    "$date": "2020-09-02T14:06:50.416Z"
+  },
+  "avatar": "https://i.imgur.com/EwLNzw7.jpg",
+  "price": 7500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa722627fbc5a186ea245"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "4D RUN 1.0 PARLEY CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:07:30.292Z"
+  },
+  "avatar": "https://i.imgur.com/Go6atmw.jpg",
+  "price": 5500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa750627fbc5a186ea246"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST DNA X JUVE CORE BLACK / SIGNAL ORANGE / GREY FIVE",
+  "updated": {
+    "$date": "2020-09-02T14:08:16.091Z"
+  },
+  "avatar": "https://i.imgur.com/8yXx6Uv.jpg",
+  "price": 4200000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa76c627fbc5a186ea247"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST DNA X DISNEY CORE BLACK / BLUE",
+  "updated": {
+    "$date": "2020-09-02T14:08:44.242Z"
+  },
+  "avatar": "https://i.imgur.com/0D9xIS9.jpg",
+  "price": 4200000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa77f627fbc5a186ea248"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 CORE BLACK / CORE BLACK / SIGNAL PINK",
+  "updated": {
+    "$date": "2020-09-02T14:09:03.803Z"
+  },
+  "avatar": "https://i.imgur.com/YdLayjA.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa7a0627fbc5a186ea249"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST DNA X REAL DARK BLUE / CORE BLACK / SPRING PINK",
+  "updated": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "avatar": "https://i.imgur.com/epIwaAc.jpg",
+  "price": 4200000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa7b5627fbc5a186ea24a"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "X GHOSTED.3 FG CORE BLACK / CORE BLACK / GREY SIX",
+  "updated": {
+    "$date": "2020-09-02T14:09:57.538Z"
+  },
+  "avatar": "https://i.imgur.com/QeFqAvC.jpg",
+  "price": 1800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa7d1627fbc5a186ea24b"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "X9000L2 M CLOUD WHITE / CLOUD WHITE / DASH GREY",
+  "updated": {
+    "$date": "2020-09-02T14:10:25.611Z"
+  },
+  "avatar": "https://i.imgur.com/cO7Agp8.jpg",
+  "price": 2700000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa7e9627fbc5a186ea24c"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "X9000L1 CORE BLACK / GREY FIVE / NIGHT METALLIC",
+  "updated": {
+    "$date": "2020-09-02T14:10:49.297Z"
+  },
+  "avatar": "https://i.imgur.com/Dx29zaF.jpg",
+  "price": 2000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa804627fbc5a186ea24d"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "NEMEZIZ 19.3 FIRM GROUND SIGNAL CORAL / CORE BLACK / GLORY RED",
+  "updated": {
+    "$date": "2020-09-02T14:11:16.458Z"
+  },
+  "avatar": "https://i.imgur.com/9Rt6rpE.jpg",
+  "price": 2000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa81c627fbc5a186ea24e"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 SIGNAL ORANGE / SILVER METALLIC / FROST MINT",
+  "updated": {
+    "$date": "2020-09-02T14:11:40.650Z"
+  },
+  "avatar": "https://i.imgur.com/W3obUjo.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa836627fbc5a186ea24f"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ZX 2K BOOST CLOUD WHITE / GREY TWO / CORE BLACK",
+  "updated": {
+    "$date": "2020-09-02T14:12:06.425Z"
+  },
+  "avatar": "https://i.imgur.com/5ItlolI.jpg",
+  "price": 3500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa853627fbc5a186ea250"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 COLLEGIATE NAVY / CLOUD WHITE / GOLD METALLIC",
+  "updated": {
+    "$date": "2020-09-02T14:12:35.353Z"
+  },
+  "avatar": "https://i.imgur.com/SioYWPh.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa875627fbc5a186ea251"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "PREDATOR MUTATOR Cổ thấp 20.3 TURF",
+  "updated": {
+    "$date": "2020-09-02T14:13:09.057Z"
+  },
+  "avatar": "https://i.imgur.com/JemRMSn.jpg",
+  "price": 1800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa88f627fbc5a186ea252"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "DAY JOGGER CORE BLACK / NIGHT BROWN / SEMI SOLAR RED",
+  "updated": {
+    "$date": "2020-09-02T14:13:35.042Z"
+  },
+  "avatar": "https://i.imgur.com/vfFlUMi.jpg",
+  "price": 3100000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa89f627fbc5a186ea253"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 CORE BLACK / CLEAR GRANITE / FROST MINT",
+  "updated": {
+    "$date": "2020-09-02T14:13:51.616Z"
+  },
+  "avatar": "https://i.imgur.com/eduXufb.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa8cb627fbc5a186ea254"
+  },
+  "type": [
+    "shoes",
+    "street",
+    "running"
+  ],
+  "productname": "ALPHATORSION BOOST M CORE BLACK / CORE BLACK / CORE BLACK",
+  "updated": {
+    "$date": "2020-09-02T14:14:35.233Z"
+  },
+  "avatar": "https://i.imgur.com/JzGYdLA.jpg",
+  "price": 3500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa920627fbc5a186ea255"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "X9000L1 COLLEGIATE NAVY",
+  "updated": {
+    "$date": "2020-09-02T14:16:00.928Z"
+  },
+  "avatar": "https://i.imgur.com/i7h00Ch.jpg",
+  "price": 2000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa95c627fbc5a186ea256"
+  },
+  "type": [
+    "shoes",
+    "street",
+    "running"
+  ],
+  "productname": "DAY JOGGER CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:17:00.330Z"
+  },
+  "avatar": "https://i.imgur.com/5VEd1ox.jpg",
+  "price": 3100000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa976627fbc5a186ea257"
+  },
+  "type": [
+    "shoes",
+    "running",
+    "street"
+  ],
+  "productname": "CAMPUS HUMAN MADE LIGHT BLUE",
+  "updated": {
+    "$date": "2020-09-02T14:17:26.938Z"
+  },
+  "avatar": "https://i.imgur.com/0bJm9kq.jpg",
+  "price": 3800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa9cc627fbc5a186ea258"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "STAN SMITH HUMAN MADE CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:18:52.568Z"
+  },
+  "avatar": "https://i.imgur.com/slVJd7b.jpg",
+  "price": 3800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa9df627fbc5a186ea259"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "CAMPUS HUMAN MADE GREEN",
+  "updated": {
+    "$date": "2020-09-02T14:19:11.592Z"
+  },
+  "avatar": "https://i.imgur.com/knA4107.jpg",
+  "price": 3800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fa9fb627fbc5a186ea25a"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ULTRABOOST 20 SIGNAL CYAN",
+  "updated": {
+    "$date": "2020-09-02T14:19:39.715Z"
+  },
+  "avatar": "https://i.imgur.com/DG6ldLh.jpg",
+  "price": 5000000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4faa13627fbc5a186ea25b"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "COPA 20.3 FIRM GROUND ROYAL BLUE",
+  "updated": {
+    "$date": "2020-09-02T14:20:03.673Z"
+  },
+  "avatar": "https://i.imgur.com/nt5mQRw.jpg",
+  "price": 1800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4faa5f627fbc5a186ea25c"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "PREDATOR 20.3 L FG GOLD METALLIC",
+  "updated": {
+    "$date": "2020-09-02T14:21:19.490Z"
+  },
+  "avatar": "https://i.imgur.com/CRg68LP.jpg",
+  "price": 1800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4faa84627fbc5a186ea25d"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "X GHOSTED.3 TURF MET.GOLD MELANGE",
+  "updated": {
+    "$date": "2020-09-02T14:21:56.881Z"
+  },
+  "avatar": "https://i.imgur.com/zP8XajO.jpg",
+  "price": 1800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4faaa1627fbc5a186ea25e"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "RIVALRY HUMAN MADE GREEN",
+  "updated": {
+    "$date": "2020-09-02T14:22:25.169Z"
+  },
+  "avatar": "https://i.imgur.com/5ZDCvdj.jpg",
+  "price": 3800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4faaf6627fbc5a186ea25f"
+  },
+  "type": [
+    "shoes",
+    "street",
+    "running"
+  ],
+  "productname": "X9000L4 CORE BLACK",
+  "updated": {
+    "$date": "2020-09-02T14:23:50.330Z"
+  },
+  "avatar": "https://i.imgur.com/bwoALcv.jpg",
+  "price": 3500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fab75627fbc5a186ea260"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "NMD_R1 SCARLET",
+  "updated": {
+    "$date": "2020-09-02T14:25:57.871Z"
+  },
+  "avatar": "https://i.imgur.com/DwtdhXS.jpg",
+  "price": 3400000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fab8e627fbc5a186ea261"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "GIÀY NMD_R1 CORE BLACK",
+  "updated": {
+    "$date": "2020-09-02T14:26:22.689Z"
+  },
+  "avatar": "https://i.imgur.com/EbDubhM.jpg",
+  "price": 3400000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fabaa627fbc5a186ea262"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "CLIMACOOL VENT SUMMER.RDY CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:26:50.322Z"
+  },
+  "avatar": "https://i.imgur.com/mMfhmct.jpg",
+  "price": 2800000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fabc2627fbc5a186ea263"
+  },
+  "type": [
+    "shoes",
+    "golf"
+  ],
+  "productname": "ADIPOWER 5ER BOA CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:27:14.912Z"
+  },
+  "avatar": "https://i.imgur.com/9eKgFKb.jpg",
+  "price": 4995000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fabe1627fbc5a186ea264"
+  },
+  "type": [
+    "shoes",
+    "golf"
+  ],
+  "productname": "TECH RESPONSE SL CORE BLACK",
+  "updated": {
+    "$date": "2020-09-02T14:27:45.104Z"
+  },
+  "avatar": "https://i.imgur.com/ZCQZH9N.jpg",
+  "price": 2595000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fabfb627fbc5a186ea265"
+  },
+  "type": [
+    "shoes",
+    "golf"
+  ],
+  "productname": "TOUR360 XT-SL BOA 2.0 CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:28:11.073Z"
+  },
+  "avatar": "https://i.imgur.com/vwWKfn9.jpg",
+  "price": 5595000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fac11627fbc5a186ea266"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "PREDATOR 20.1 TR COLLEGIATE ROYAL",
+  "updated": {
+    "$date": "2020-09-02T14:28:33.160Z"
+  },
+  "avatar": "https://i.imgur.com/w3UuPUN.jpg",
+  "price": 3100000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fac2f627fbc5a186ea267"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "PREDATOR MUTATOR 20.1 FIRM GROUND CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:29:03.288Z"
+  },
+  "avatar": "https://i.imgur.com/vmv1tKd.jpg",
+  "price": 4500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fac41627fbc5a186ea268"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "LXCON SIGNAL GREEN",
+  "updated": {
+    "$date": "2020-09-02T14:29:21.480Z"
+  },
+  "avatar": "https://i.imgur.com/nQF2muU.jpg",
+  "price": 3100000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fac5d627fbc5a186ea269"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "OZWEEGO CORE BLACK",
+  "updated": {
+    "$date": "2020-09-02T14:29:49.783Z"
+  },
+  "avatar": "https://i.imgur.com/J83Vase.jpg",
+  "price": 3100000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fac6f627fbc5a186ea26a"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "CODECHAOS UNITY SIGNAL PINK",
+  "updated": {
+    "$date": "2020-09-02T14:30:07.624Z"
+  },
+  "avatar": "https://i.imgur.com/ZK7PLBa.jpg",
+  "price": 4495000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fac8a627fbc5a186ea26b"
+  },
+  "type": [
+    "shoes",
+    "football"
+  ],
+  "productname": "COPA 20.1 FG SIGNAL GREEN",
+  "updated": {
+    "$date": "2020-09-02T14:30:34.153Z"
+  },
+  "avatar": "https://i.imgur.com/uRzxuXd.jpg",
+  "price": 4500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4faca0627fbc5a186ea26c"
+  },
+  "type": [
+    "shoes",
+    "running"
+  ],
+  "productname": "ALPHAFLEX BOA CLOUD WHITE",
+  "updated": {
+    "$date": "2020-09-02T14:30:56.047Z"
+  },
+  "avatar": "https://i.imgur.com/B4gXSi5.jpg",
+  "price": 2347500,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4facb7627fbc5a186ea26d"
+  },
+  "type": [
+    "shoes",
+    "golf"
+  ],
+  "productname": "S2G GREY THREE",
+  "updated": {
+    "$date": "2020-09-02T14:31:19.497Z"
+  },
+  "avatar": "https://i.imgur.com/3jVwN8Y.jpg",
+  "price": 2695000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4facec627fbc5a186ea26e"
+  },
+  "type": [
+    "shoes",
+    "golf"
+  ],
+  "productname": "S2G TECH INDIGO",
+  "updated": {
+    "$date": "2020-09-02T14:32:12.768Z"
+  },
+  "avatar": "https://i.imgur.com/x7eVne6.jpg",
+  "price": 2695000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fad0e627fbc5a186ea26f"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "PULSEBOOST HD GREY TWO",
+  "updated": {
+    "$date": "2020-09-02T14:32:46.981Z"
+  },
+  "avatar": "https://i.imgur.com/QvVqhJe.jpg",
+  "price": 3500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fad29627fbc5a186ea270"
+  },
+  "type": [
+    "shoes",
+    "street",
+    "running"
+  ],
+  "productname": "ULTRABOOST COLLEGIATE GREEN",
+  "updated": {
+    "$date": "2020-09-02T14:33:13.377Z"
+  },
+  "avatar": "https://i.imgur.com/S7RN0Gm.jpg",
+  "price": 4500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fad4e627fbc5a186ea271"
+  },
+  "type": [
+    "shoes",
+    "street"
+  ],
+  "productname": "X9000L4 GREY THREE",
+  "updated": {
+    "$date": "2020-09-02T14:33:50.310Z"
+  },
+  "avatar": "https://i.imgur.com/3jkQ4jA.jpg",
+  "price": 3500000,
+  "inStock": {
+    "36": 11,
+    "37": 14,
+    "38": 23,
+    "39": 35,
+    "40": 54,
+    "41": 56,
+    "42": 59,
+    "43": 61,
+    "44": 23,
+    "35,5": 23,
+    "36,5": 12,
+    "37,5": 43,
+    "38,5": 25,
+    "39,5": 33,
+    "40,5": 55,
+    "41,5": 58,
+    "42,5": 60,
+    "43,5": 34
+  },
+  "brand": "Adidas",
+  "__v": 0
+}]

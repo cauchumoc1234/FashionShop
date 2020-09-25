@@ -25,6 +25,6 @@ var productSchema = new mongoose.Schema({
         "44": Number
     },
     type: [],
-    brand: String
+    brand: [String]
 })
 module.exports = mongoose.model('Product', productSchema)

@@ -8,14 +8,20 @@
     /* không biết sao mà xoá đi thì cái div này sẽ k có height,k sửa đc tag con luôn */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    /* justify-content: space-between; */
+    align-content: space-between;
+}
+@media  screen and (max-width: 600px){
+    .list{
+        justify-content: center;
+    }
 }
 .item{
     display: block;
-    max-width: 20%;
-    min-width: 180px;
+    max-width: 13%;
+    min-width: 200px;
     padding: 10px;
+    
 }
 .products a img{
     display: block;

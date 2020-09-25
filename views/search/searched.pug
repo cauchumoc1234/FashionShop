@@ -20,48 +20,39 @@ block content
                             p.type #{product.type[0]}
                         span.price #{product.price}
             ul.pagnition
-                if current_page > 1 && max_page >= 4
+                if current_page > 1 && max_page >= 5
                     li.page-number
                             a.pre.link(href=url ) &#8592;
-                if max_page >= 4
-                    - for(var i= current_page ; i < current_page + 4; i++)
-                        if i <= max_page
-                            if i == current_page
-                                li.page-number.current
-                                    a.link(href=url)= i
-                            else
-                                li.page-number
-                                    a.link(href=url)= i
+                if max_page >= 5
+                    if current_page > 2
+                        - for(var i= current_page -2 ; i < current_page + 3; i++)
+                            if i <= max_page
+                                if i == current_page
+                                    li.page-number#current
+                                        a.link(href=url)= i
+                                else
+                                    li.page-number
+                                        a.link(href=url)= i
+                    else
+                        - for(var i= current_page ; i < current_page + 5; i++)
+                            if i <= max_page
+                                if i == current_page
+                                    li.page-number#current
+                                        a.link(href=url)= i
+                                else
+                                    li.page-number
+                                        a.link(href=url)= i
                 else 
                     -for(var i = current_page ; i <= max_page ; i++)
                             if i == current_page
-                                li.page-number.current
+                                li.page-number#current
                                     a.link(href=url)= i
                             else
                                 li.page-number
                                     a.link(href=url)= i
-                if current_page +3 < max_page
+                if current_page +2 < max_page
                     li.page-number
                             a.next.link(href=url ) &#8594;
-                //- if current_page + 2  < max_page
-                //-     - for(var i = current_page ; i < current_page + 3;i++)
-                //-         if i <= max_page
-                //-             if i == current_page
-                //-                 li.page-number.current
-                //-                     a.link(href=url)= i
-                //-             else
-                //-                 li.page-number
-                //-                     a.link(href=url)= i
-                //-     li.page-number
-                //-             a.link(href=url ) &#8594;
-                //- else
-                //-     -for(var i=3;i>=0;i--)
-                //-         if max_page - i == current_page
-                //-             li.page-number.current
-                //-                 a.link(href=url)= max_page - i
-                //-         else
-                //-             li.page-number
-                //-                 a.link(href=url)= max_page - i
 block script
   script(src="/script/product/price_format2.js")
   script(src="/script/search/pagnition.js")

@@ -2,92 +2,93 @@ extends general.pug
 block css
   link(rel="stylesheet", href="/css/home.css")
 block content
-  .row.body
-    .col-2.col-s-3.menu
-      ul
-        li.drop-down(style='width: 100%;')
-          a(href='/product/category?q=all&type=shoes') Shoes
-          ul
-            li
-              a(href='/product/category?q=newest&type=shoes') Newest
-            li
-              a(href='/product/category?q=football&type=shoes') Football
-            li
-              a(href='/product/category?q=running&type=shoes') Running
-            li
-              a(href='/product/category?q=basketball&type=shoes') Basketball
-            li
-              a(href='/product/category?q=gym&type=shoes') Gym &amp; Training
-        li.drop-down
-          a(href='/product/category?q=all&type=clothing') Clothes
-          ul
-            li
-              a(href='/product/category?q=top&type=clothing') Top &amp; T-Shirts
-            li
-              a(href='/product/category?q=hoodie&type=clothing') Hoodies
-            li
-              a(href='/product/category?q=jacket&type=clothing') Jacket
-            li
-              a(href='/product/category?q=shorts&type=clothing') Shorts
-            li
-              a(href='/product/category?q=trousers&type=clothing') Trousers
-            li
-              a(href='/product/category?q=cap&type=clothing') Caps
-            li
-              a(href='/product/category?q=sock&type=clothing') Socks
-            li
-              a(href='/product/category?q=bag&type=clothing') Bags
-        li.drop-down
-          a(href='/product/category?q=all&type=sport') Sports
-          ul
-            li
-              a(href='/product/category?q=football&type=sport') Football
-            li
-              a(href='/product/category?q=basketball&type=sport') Basketball
-            li
-              a(href='/product/category?q=running&type=sport') Running
-            li
-              a(href='/product/category?q=tennis&type=sport') Tennis
-            li
-              a(href='/product/category?q=golf&type=sport') Golf
-            li
-              a(href='/product/category?q=yoga&type=sport') Yoga
-        li.drop-down
-          a(href='/product/category?q=all&type=brand') Brands
-          ul
-            li
-              a(href='/product/category?q=nike&type=brand') Nike
-            li
-              a(href='/product/category?q=adidas&type=brand') Adidas
-            li
-              a(href='/product/category?q=vietnam&type=brand') Vietnam
-    .col-10.col-s-12.container
-      if shoes
-        h1(style="text-align:center;") New Shoes
-        .list
-          -  for(x = 0 ; x <4 ; x++)
-              a.item(href="/product/shoes/"+shoes[x].id)
-                img(src=shoes[x].avatar, alt='Product', style='width: 100%;')
-                .info
-                  h4 #{shoes[x].productname}
-                  if shoes[x].type[1]
-                    p.type  #{shoes[x].type[1]}
-                  else
-                    p.type #{shoes[x].type[0]}
-                  span.price #{shoes[x].price}
-    .col-10.col-s-12.container_2
-      if clothes
-        h1(style="text-align:center;") New Clothes
-        .list
-          -  for(x = 0 ; x <4 ; x++)
-              a.item(href="/product/clothing/"+clothes[x].id)
-                img(src=clothes[x].avatar, alt='Product', style='width: 100%;')
-                .info
-                  h4 #{clothes[x].productname}
-                  if clothes[x].type[1]
-                    p.type  #{clothes[x].type[1]}
-                  else
-                    p.type #{clothes[x].type[0]}
-                  span.price #{clothes[x].price}
+  .body
+    .row.body
+      .col-2.col-s-3.menu
+        ul
+          li.drop-down(style='width: 100%;')
+            a(href='/product/category?q=all&type=shoes') Shoes
+            ul
+              li
+                a(href='/product/category?q=newest&type=shoes') Newest
+              li
+                a(href='/product/category?q=football&type=shoes') Football
+              li
+                a(href='/product/category?q=running&type=shoes') Running
+              li
+                a(href='/product/category?q=basketball&type=shoes') Basketball
+              li
+                a(href='/product/category?q=gym&type=shoes') Gym &amp; Training
+          li.drop-down
+            a(href='/product/category?q=all&type=clothing') Clothes
+            ul
+              li
+                a(href='/product/category?q=top&type=clothing') Top &amp; T-Shirts
+              li
+                a(href='/product/category?q=hoodie&type=clothing') Hoodies
+              li
+                a(href='/product/category?q=jacket&type=clothing') Jacket
+              li
+                a(href='/product/category?q=shorts&type=clothing') Shorts
+              li
+                a(href='/product/category?q=trousers&type=clothing') Trousers
+              li
+                a(href='/product/category?q=cap&type=clothing') Caps
+              li
+                a(href='/product/category?q=sock&type=clothing') Socks
+              li
+                a(href='/product/category?q=bag&type=clothing') Bags
+          li.drop-down
+            a(href='/product/category?q=all&type=sport') Sports
+            ul
+              li
+                a(href='/product/category?q=football&type=sport') Football
+              li
+                a(href='/product/category?q=basketball&type=sport') Basketball
+              li
+                a(href='/product/category?q=running&type=sport') Running
+              li
+                a(href='/product/category?q=tennis&type=sport') Tennis
+              li
+                a(href='/product/category?q=golf&type=sport') Golf
+              li
+                a(href='/product/category?q=yoga&type=sport') Yoga
+          li.drop-down
+            a(href='/product/category?q=all&type=brand') Brands
+            ul
+              li
+                a(href='/product/category?q=nike&type=brand') Nike
+              li
+                a(href='/product/category?q=adidas&type=brand') Adidas
+              li
+                a(href='/product/category?q=vietnam&type=brand') Vietnam
+      .col-10.col-s-12.container
+        if shoes
+          h1(style="text-align:center;") New Shoes
+          .list
+            -  for(x = 0 ; x < 5 ; x++)
+                a.item(href="/product/shoes/"+shoes[x].id)
+                  img(src=shoes[x].avatar, alt='Product', style='width: 100%;')
+                  .info
+                    h4 #{shoes[x].productname}
+                    if shoes[x].type[1]
+                      p.type  #{shoes[x].type[1]}
+                    else
+                      p.type #{shoes[x].type[0]}
+                    span.price #{shoes[x].price}
+      .col-10.col-s-12.container_2
+        if clothes
+          h1(style="text-align:center;") New Clothes
+          .list
+            -  for(x = 0 ; x < 5 ; x++)
+                a.item(href="/product/clothing/"+clothes[x].id)
+                  img(src=clothes[x].avatar, alt='Product', style='width: 100%;')
+                  .info
+                    h4 #{clothes[x].productname}
+                    if clothes[x].type[1]
+                      p.type  #{clothes[x].type[1]}
+                    else
+                      p.type #{clothes[x].type[0]}
+                    span.price #{clothes[x].price}
 block script
   script(src="/script/product/price_format2.js")

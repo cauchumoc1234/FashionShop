@@ -13,11 +13,11 @@ ul{
     transition: background-color 0.3s;
 }
 .page-number:hover{
-    background-color: rgb(135, 191, 240);
+    background-color: rgb(190, 226, 240);
 }
 .link{
-    color: rgb(26, 59, 59);
+    color: rgb(89, 139, 139);
 }
-.current{
+#current{
     background-color: rgb(129, 241, 241);
 }

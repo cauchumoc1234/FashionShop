@@ -5,6 +5,12 @@
 html {
     font-family: "Lucida Sans", sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+}
 @font-face {
     font-family: fontheader;
     src: url("../font/UTM BanqueB.ttf");
@@ -30,12 +36,16 @@ html {
     font-weight: bold;
     color: #940a0a;
 }
+.body{
+    min-height: 70vh;
+}
 .footer {
     display: flex;
     background-color: #000102;
     color: #ffffff;
     text-align: center;
     padding: 15px;
+
 }
 .footer a{
     display: block;
@@ -53,6 +63,7 @@ html {
 }
 .social{
     display: flex;
+    flex-direction: column;
 }
 .social a{
     flex-grow: 1;
