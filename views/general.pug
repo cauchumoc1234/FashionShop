@@ -8,14 +8,14 @@ head
   block css
   title Phoenix
 .header
-  a(href='/')
+  a.logo(href='/')
     img(src='/image/Logo_2.png', style='height: 100%;', alt='brand')
     h1 Agent
-  form.col-6.col-sm-12.search-box(action='/search' method="get")
+  form.col-5.col-sm-12.search-box(action='/search' method="get")
     input(type='text',name="q", placeholder='Find something...')
     button
       i.fa.fa-search(aria-hidden='true')
-  .col-3.col-sm-12.customer
+  .col-4.col-sm-12.customer
     a(href="/user/login") Login
     span &nbsp &nbsp
     a(href="/user/create") Sign up
@@ -42,9 +42,10 @@ block content
       i.fa.fa-facebook-official(aria-hidden='true')
     a(href='')
       i.fa.fa-instagram(aria-hidden='true')
+      
 block script
 script.
   if(document.cookie.search("id=") >= 0){
   var x = document.getElementsByClassName("customer");
-  x[0].innerHTML = "<a style='margin-top:10px' href='/admin' class = 'badge badge-success mr-2'>Profile</a> <span></span><a style='margin-left:20px; margin-top:10px' href='/user/logout' class = 'badge badge-warning'>Logout</a>";
+  x[0].innerHTML = "<a style='margin-top:10px' href='/user/profile' class = 'badge badge-success mr-2'>Profile</a> <span></span><a style='margin-top:10px' href='/user/logout' class = 'badge badge-warning'>Logout</a><span> </span><a style='margin-left:20px;margin-top:10px' href='/cart' class = 'badge badge-success mr-2'><i class='fa fa-shopping-cart cart' '></i></a> ";
   }

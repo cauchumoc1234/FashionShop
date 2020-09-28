@@ -21,3 +21,12 @@ ul{
 #current{
     background-color: rgb(129, 241, 241);
 }
+#sort{
+    float: right;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 15px;
+}
+#sort option:hover{
+    color:red;
+}

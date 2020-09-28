@@ -2,7 +2,10 @@ extends ../general.pug
 block css
     link(rel="stylesheet", href="/css/user/user_login.css")
 block content
+
     form.login(action='/user/login' method="post" class ="login")
+        if error
+            p.err #{error}
         div
             label(for='username') Username
             br
@@ -17,4 +20,6 @@ block content
             button Login
             br
             a(href='/user/create') Create new user
+block script
+    script(src="/script/user/clear-history.js")
 
