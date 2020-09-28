@@ -5,6 +5,6 @@ const auth_middleware = require('../middleware/requireauth.middleware')
 product_router.get('/',product_controller.show)
 product_router.get('/category',product_controller.show)
 product_router.get('/shoes/:id',product_controller.showShoe)
-product_router.get('/clothing/:id',product_controller.showClothing)
+product_router.get('/clothes/:id',product_controller.showClothing)
 product_router.post('/add/:id',auth_middleware.requireAuth,product_controller.buyNow)
 module.exports = product_router;

@@ -81,7 +81,7 @@ block content
           h1(style="text-align:center;") New Clothes
           .list
             -  for(x = 0 ; x < 5 ; x++)
-                a.item(href="/product/clothing/"+clothes[x].id)
+                a.item(href="/product/clothes/"+clothes[x].id)
                   img(src=clothes[x].avatar, alt='Product', style='width: 100%;')
                   .info
                     h4 #{clothes[x].productname}
