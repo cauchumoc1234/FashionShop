@@ -4,7 +4,7 @@ block css
 block content
   .body
     .row.body
-      .col-2.col-s-3.menu
+      //- .col-2.col-s-3.menu
         ul
           li.drop-down(style='width: 100%;')
             a(href='/search?q=all&type=shoes') Shoes
@@ -62,7 +62,7 @@ block content
                 a(href='/search?q=adidas') Adidas
               li
                 a(href='/search?q=vietnam') Vietnam
-      .col-10.col-s-12.container
+      .container
         if shoes
           h1(style="text-align:center;") New Shoes
           .list
@@ -76,7 +76,7 @@ block content
                     else
                       p.type #{shoes[x].type[0]}
                     span.price #{shoes[x].price}
-      .col-10.col-s-12.container_2
+      .container
         if clothes
           h1(style="text-align:center;") New Clothes
           .list

@@ -3,29 +3,35 @@
     background-color: red;
     overflow: auto;
 }
+.container{
+    margin: 0 2%;
+}
 .list{
     overflow: auto; 
     /* không biết sao mà xoá đi thì cái div này sẽ k có height,k sửa đc tag con luôn */
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    align-content: space-between;
+    justify-content: space-around;
 }
-@media  screen and (max-width: 600px){
-    .list{
-        justify-content: center;
-    }
-}
+
 .item{
     display: block;
-    max-width: 13%;
-    min-width: 200px;
-    padding: 10px;
-    
+    max-width: 15%;
+    min-width: 230px;
+    padding: 12px;
+    flex-grow: 1;
 }
-.products a img{
+/* .products a img{
     display: block;
     width: 100%;
+} */
+.item:hover .info h4{
+    color: rgb(5, 109, 109);
+}
+.item img{
+    height: 60%;
+    object-fit: cover;
 }
 .body{
     width: 100%;

@@ -5,20 +5,88 @@ head
   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
   link(rel='stylesheet', href='/css/general.css')
   link(rel='stylesheet', href='/css/lib.css')
+  
   block css
   title Phoenix
 .header
-  a.logo(href='/')
-    img(src='/image/Logo_2.png', style='height: 100%;', alt='brand')
-    h1 Agent
-  form.col-5.col-sm-12.search-box(action='/search' method="get")
-    input(type='text',name="q", placeholder='Find something...')
-    button
-      i.fa.fa-search(aria-hidden='true')
-  .col-4.col-sm-12.customer
-    a(href="/user/login") Login
-    span &nbsp &nbsp
-    a(href="/user/create") Sign up
+  .top
+    a.logo.col-4.col-sm-12(href='/')
+      img(src='/image/Logo_head.png', alt='brand')
+    form.col-4.col-sm-12.search-box(action='/search' method="get")
+      input(type='text',name="q", placeholder='Find something...')
+      button
+        i.fa.fa-search(aria-hidden='true')
+    .col-3.col-sm-12.customer
+      a(href="/user/login") Login
+      span &nbsp &nbsp
+      a(href="/user/create") Sign up
+  .row-menu
+        .option.drop
+          a(href="") Shoe
+          ul.drop-menu
+            li
+              a.drop-item(href="") Newest
+            li
+              a.drop-item(href="") Football
+            li
+              a.drop-item(href="") Running
+            li
+              a.drop-item(href="") Basketball
+            li
+              a.drop-item(href="") Training
+        .option.drop
+          a(href="") Clothing
+          ul.drop-menu
+            li
+              a.drop-item(href="") T-Shirts
+            li
+              a.drop-item(href="") Shirts
+            li
+              a.drop-item(href="") Sweaters
+            li
+              a.drop-item(href="") Hoodies
+            li
+              a.drop-item(href="") Shorts
+            li
+              a.drop-item(href="") Jeans
+            li
+              a.drop-item(href="") Jogges
+            li
+              a.drop-item(href="") Trousers
+        .option.drop
+          a(href="") Accessories
+          ul.drop-menu
+            li
+              a.drop-item(href="") Underwears
+            li
+              a.drop-item(href="") Caps
+            li
+              a.drop-item(href="") Socks
+            li
+              a.drop-item(href="") Belts
+            li
+              a.drop-item(href="") Wallets
+            li
+              a.drop-item(href="") Face masks
+            li
+              a.drop-item(href="") Bracelets
+        .option.drop
+          a(href="") Sports
+          ul.drop-menu
+            li
+              a.drop-item(href="") Football
+            li
+              a.drop-item(href="") Running
+            li
+              a.drop-item(href="") Golf
+            li
+              a.drop-item(href="") Basketball
+            li
+              a.drop-item(href="") Yoga
+            li
+              a.drop-item(href="") Tennis
+        .option.drop
+          a(href="") SALE OFF !
 block content
 .footer
   .col-3.general
